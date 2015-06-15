@@ -11,7 +11,7 @@ pacman -S --needed $pacman_packages --noconfirm
 source /root/packer.sh
 
 # set permissions
-chown -R nobody:users /usr/lib/sonarr /usr/bin/sonarr
+chown -R jobski:users /usr/lib/sonarr /usr/bin/sonarr
 chmod -R 775  /usr/lib/sonarr /usr/bin/sonarr
 
 # cleanup
